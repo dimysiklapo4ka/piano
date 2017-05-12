@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.d1mys1klapo4ka.piano.PianoActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <Button
+            android:id="@+id/bt_do"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:drawable/edit_text"
+            android:onClick="onClick"
+            tools:ignore="ButtonStyle"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <Button
+            android:id="@+id/bt_re"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:drawable/edit_text"
+            android:onClick="onClick"
+            tools:ignore="ButtonStyle"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <Button
+            android:id="@+id/bt_mi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:drawable/edit_text"
+            android:onClick="onClick"
+            tools:ignore="ButtonStyle"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <Button
+            android:id="@+id/bt_fa"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:drawable/edit_text"
+            android:onClick="onClick"
+            tools:ignore="ButtonStyle"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <Button
+            android:id="@+id/bt_sol"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:drawable/edit_text"
+            android:onClick="onClick"
+            tools:ignore="ButtonStyle"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <Button
+            android:id="@+id/bt_la"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:drawable/edit_text"
+            android:onClick="onClick"
+            tools:ignore="ButtonStyle"
+            tools:layout_editor_absoluteX="458dp"
+            tools:layout_editor_absoluteY="153dp" />
+
+        <Button
+            android:id="@+id/bt_si"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:drawable/edit_text"
+            android:onClick="onClick"
+            tools:ignore="ButtonStyle"
+            tools:layout_editor_absoluteX="507dp"
+            tools:layout_editor_absoluteY="8dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
